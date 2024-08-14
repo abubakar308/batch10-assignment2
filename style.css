@@ -10,6 +10,8 @@
 }
 .bg-color{
    margin: 20px 90px;
+}
+.image{
     text-align: center;
 }
 .navbar, .banner, .card2, .card-menu, .run, .footer, .bmi{
@@ -69,6 +71,7 @@ padding: 16px 40px 16px 40px;
 }
 .btn{
     background-color: rgb(230, 83, 60);
+    border: none;
 }
 .circle{
     height: 40px;
