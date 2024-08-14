@@ -1,0 +1,17 @@
+/* shared item */
+.display-flex{
+    display: flex;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.bg-color{
+   margin: 20px 90px;
+    text-align: center;
+
+}
+.navbar, .banner, .card2, .card-menu, .run, .footer, .bmi{
+    justify-content: space-between;
+    align-items: center;
+}
