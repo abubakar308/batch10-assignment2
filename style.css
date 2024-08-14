@@ -2,7 +2,7 @@
 .display-flex{
     display: flex;
 }
-body{
+.background{
     color: white;
     background-color: black;
 }
@@ -14,4 +14,62 @@ body{
 .navbar, .banner, .card2, .card-menu, .run, .footer, .bmi{
     justify-content: space-between;
     align-items: center;
+}
+
+.heder-n{
+    color: rgb(230, 83, 60);
+}
+.nav-menu{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+    background-color: 1px	Inside
+    rgba(255, 255, 255, 0.1);
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.menubar{
+   display: none;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    align-items: center;
+}
+.card2, .card1{
+    background-color: bisque;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.card1{
+    width: 150px;
+    height: 80px;
+    bottom: 200px;
+    left: 180px;
+}
+.card2{
+    bottom: 200px;
+    left: -60px;
+    height: 80px;
+    width: 150px;
+}
+.card-item>img{
+    border-radius: 50%;
+    width: 100%;
+}
+.image>img{
+    width: 50%;
+    border-radius: 10px;
 }
