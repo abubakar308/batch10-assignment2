@@ -8,21 +8,24 @@
     color: white;
     background-color: black;
 }
-.bg-color{
+.margin{
    margin: 20px 90px;
 }
-.image{
+.text-align{
     text-align: center;
 }
-.navbar, .banner, .card2, .card-menu, .run, .footer, .bmi{
+.navbar, .banner, .card2, .card-menu, .footer, .bmi{
     justify-content: space-between;
     align-items: center;
 }
-.banner{
-    align-items: flex-start;
+.bttn{
+    gap: 20px;
 }
 .heder-n{
     color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
 }
 .nav-menu{
     box-sizing: border-box;
@@ -35,6 +38,9 @@ border-radius: 39px;
     align-items: center;
     border-radius: 10px;
     gap: 20px;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
 }
 .menubar{
    display: none;
@@ -109,19 +115,25 @@ background: rgba(255, 255, 255, 0.1);
 }
 .image{
     margin-top: 20px;
+    text-align: center;
 }
-.image>img{
-    width: 50%;
+.images>img{
+    width: 60%;
     border-radius: 10px;
 }
-
+.run{
+    justify-content: space-between;
+    width: 100%;
+    gap: 200px;
+    margin-bottom: 50px;
+}
 .team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 .team-member{
-    height: 300px;
+    height: 270px;
 }
 .team-member>img{
     width: 100%;
@@ -131,7 +143,7 @@ background: rgba(255, 255, 255, 0.1);
 .trainer-desc{
     position: relative;
     bottom: 100px;
-    right: 80px;
+    right: 70px;
 }
 table, td, th{
     border: 2px solid wheat;
@@ -149,4 +161,43 @@ table, td, th{
 }
 .footer-desc{
     width: 50%;
+}
+
+/* Small Device Design */
+@media screen and (max-width: 576px) {
+    .nav-menu{
+        display: none;
+    }
+    .menubar{
+        display: inline;
+    }
+    .margin{
+        margin: 10px 20px;
+     
+     }
+    .banner,
+    .display-flex{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    .bttn{
+        flex-direction: row;
+    }
+    .image{
+        margin-bottom: 0px;
+    }
+    .team{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image>img{
+        width: 80%;
+    }
+    .run{
+        gap: 10px;
+    }
+    .footer{
+        margin-left: -20px;
+    }
 }
