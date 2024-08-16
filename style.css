@@ -89,15 +89,15 @@ padding: 16px 40px 16px 40px;
 .card1{
     width: 150px;
     height: 90px;
-    bottom: 270px;
-    left: 200px;
+    bottom: 400px;
+    left: 250px;
     text-align: left;
     padding-left: 10px;
     padding-bottom: 15px;
 }
 .card2{
-    bottom: 200px;
-    left: -20px;
+    bottom: 250px;
+    left: -50px;
     height: 80px;
     width: 150px;
 }
