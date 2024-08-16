@@ -118,15 +118,21 @@ background: rgba(255, 255, 255, 0.1);
     text-align: center;
 }
 .images>img{
-    width: 60%;
+    width: 90%;
     border-radius: 10px;
 }
-.run{
-    justify-content: space-between;
-    width: 100%;
-    gap: 200px;
-    margin-bottom: 50px;
+.run-extra{
+   width: 100%;
 }
+.run{
+    justify-content: ;
+    align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 20px 90px;
+        padding: 20px;
+        border-radius: 10px;
+        gap: 200px;
+    }
 .team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -178,6 +184,13 @@ table, td, th{
 .bmi1{
     gap: 10px;
 }
+.bmi-top{
+    margin: 0 80px;
+}
+footer, .bmi-bg{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 90px;
+}
 
 /* Small Device Design */
 @media screen and (max-width: 576px) {
@@ -215,6 +228,8 @@ table, td, th{
     }
     .run{
         gap: 10px;
+        margin: 20px;
+        padding: 30px;
     }
     form{
         display: flex;
